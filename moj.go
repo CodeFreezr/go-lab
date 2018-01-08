@@ -70,8 +70,7 @@ func main() {
 	case "/v", "/version", "-v", "-version", "--v", "--version":
 		fmt.Println(`Version:
 	moj version 0.0.9 (CC) by 💡+🤓  CodeFreezr❄️🖖, github/codefreezr/emojo/go
-	used emoji version: 3.0, based on unicode 8.0 (C) by unicode.org
-	`)
+	used emoji version: 3.0, based on unicode 8.0 (C) by unicode.org`)
 
 	default:
 
