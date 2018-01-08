@@ -10,14 +10,16 @@ import (
 )
 
 func main() {
+
 	m := emoji.CodeMap()
 
-	//divider := "👽🎲💎🥨🛸"
-	if len(os.Args) == 0 {
-		fmt.Fprintf(os.Stderr, "You must specify a unicode-alias or use -all ")
-		os.Exit(1)
+	arg := ""
+	if len(os.Args) < 2 {
+		arg = "-help"
+	} else {
+		arg = os.Args[1]
 	}
-	arg := os.Args[1]
+
 	sortedKeys := make([]string, 0, len(m))
 	for k := range m {
 		sortedKeys = append(sortedKeys, k)
@@ -30,7 +32,7 @@ func main() {
 		for _, key := range sortedKeys {
 			c++
 			noColon := strings.Replace(key, ":", "", -1)
-			fmt.Printf("(%v: %s -> %v  ), ", c, noColon, m[key])
+			fmt.Printf("(%v: %s -> %v  ) ", c, noColon, m[key])
 		}
 
 	case "/emojis", "-emojis", "--emojis":
@@ -43,80 +45,71 @@ func main() {
 		for _, index := range sortedKeys {
 			noColon := strings.Replace(index, ":", "", -1)
 			fmt.Printf(noColon)
-			fmt.Printf(", ")
+			fmt.Printf(" ")
 		}
 
 	case "/?", "/h", "/help", "-help", "-h", "-.help", "--h":
-		fmt.Println(`Main:
-	moj [string] [-v] 
-	List all emojis with shortcodes containing [string]
-	Examples: 
-		moj smiley
-		moj smiley -v
-
-	moj :[string]: [-v]
-	Print exact the emoji from the first shortcode
-	Excamples:
-		moj :smiley:
-		moj :smiley: -v
-
-	Verbose Modes (-v) prints some further informations.
-
-Utilities:
-	moj -all: 
-	Get all emojis with (No: shortcode -> emoji),
+		fmt.Println(`Syntax:
+	moj [shortcode] [modifier]
 	
-	moj -codes 
-	List all shortcodes comma seperated (a to z)
+	shortcode (optional):
+		:smile:	-> Display emoji with shortcode ":smile:"
+		:smile	-> List emojis where shortcode >>starts<< with ":smile"
+		smile:	-> List emojis where shortcode >>ends<< with "smile:"
+		smile	-> List emojis with shortcodes >>contain<< "smile"
 
-	moj -emojis
-	List all emojis (a to z of its shortcode) 
+	modifier (optional:
+		-all	Displays (No.: shortcode -> emoji)
+		-codes	Displays only the shortcodes
+		-emojis	List all emojis. Can be omitted if shortcode is given
+		(-info	Displays further Information for exact one emoji -> tbd)
 
-	moj -version or moj -v
-	Gives some Version-Informations about this programm and used unicode and emoji
-
+	moj -v	Gives some informations about this programm and used unicode- and emoji-version
     `)
 
 	case "/v", "/version", "-v", "-version", "--v", "--version":
 		fmt.Println(`Version:
-	moj version 0.0.2 (CC) by CodeFreezr, github/codefreezr/emojo/go
-	used emoji version: 3.0, based on unicode 8.0
-			`)
+	moj version 0.0.9 (CC) by 💡+🤓  CodeFreezr❄️🖖, github/codefreezr/emojo/go
+	used emoji version: 3.0, based on unicode 8.0 (C) by unicode.org
+	`)
 
 	default:
 
-		findings := filter(sortedKeys, func(v string) bool {
-			return strings.Contains(v, arg)
-		})
-		fmt.Println(findings)
+		findings := filter(sortedKeys, func(v string) bool { return strings.Contains(v, arg) })
 
-		/*
-				for _, sortedKeys := range likes[arg] {
+		if len(findings) == 0 {
+			fmt.Println("Nothing found, try again.")
+		}
 
-					fmt.Println(p.Name, "likes cheese.")
-				}
-
-
-			key := ":" + arg + ":"
-			fmt.Printf(m[key])
-		*/
-	}
-	/*
-		if arg == "-all" {
-			//for _, key := range sortedKeys {fmt.Printf("---  %s  ---|", m[key])}#
-			fmt.Printf(" 👽  ")
-			for _, key := range sortedKeys {
-				fmt.Printf("%s 👽 ", key)
+		if len(os.Args) < 3 {
+			// No modifiers, just emojis
+			for _, index := range findings {
+				fmt.Printf(m[index])
+				fmt.Printf("  ")
 			}
 		} else {
-			key := ":" + arg + ":"
-			fmt.Printf(m[key])
+			arg2 := os.Args[2]
+			switch arg2 {
+			case "-codes":
+				for _, index := range findings {
+					noColon := strings.Replace(index, ":", "", -1)
+					fmt.Printf(noColon)
+					fmt.Printf(" ")
+				}
+			case "-all":
+				d := 0
+				for _, key := range findings {
+					d++
+					noColon := strings.Replace(key, ":", "", -1)
+					fmt.Printf("(%v: %s -> %v  ) ", d, noColon, m[key])
+				}
+			case "-info":
+				fmt.Println(`TBD: Some informations on `, arg)
+			}
 		}
-	*/
+	}
 }
 
-// Returns a new slice containing all strings in the
-// slice that satisfy the predicate `f`.
 func filter(vs []string, f func(string) bool) []string {
 	vsf := make([]string, 0)
 	for _, v := range vs {
