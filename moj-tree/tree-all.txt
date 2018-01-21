@@ -1,0 +1,84 @@
+emoji v5 (all)
+├───1.SmileyPeoples
+│   ├───body
+│   ├───cat-face
+│   ├───clothing
+│   ├───emotion
+│   ├───face-fantasy
+│   ├───face-negative
+│   ├───face-neutral
+│   ├───face-positive
+│   ├───face-role
+│   ├───face-sick
+│   ├───family
+│   ├───monkey-face
+│   ├───person
+│   ├───person-activity
+│   ├───person-fantasy
+│   ├───person-gesture
+│   ├───person-role
+│   └───person-sport
+├───2.AnimalsNature
+│   ├───animal-amphibian
+│   ├───animal-bird
+│   ├───animal-bug
+│   ├───animal-mammal
+│   ├───animal-marine
+│   ├───animal-reptile
+│   ├───plant-flower
+│   └───plant-other
+├───3.FoodDrink
+│   ├───dishware
+│   ├───drink
+│   ├───food-asian
+│   ├───food-fruit
+│   ├───food-prepared
+│   ├───food-sweet
+│   └───food-vegetable
+├───4.TravelPlaces
+│   ├───hotel
+│   ├───place-building
+│   ├───place-geographic
+│   ├───place-map
+│   ├───place-other
+│   ├───place-religious
+│   ├───sky-weather
+│   ├───time
+│   ├───transport-air
+│   ├───transport-ground
+│   └───transport-water
+├───5.Activities
+│   ├───award-medal
+│   ├───event
+│   ├───game
+│   └───sport
+├───6.Objects
+│   ├───book-paper
+│   ├───computer
+│   ├───light-video
+│   ├───lock
+│   ├───mail
+│   ├───money
+│   ├───music
+│   ├───musical-instrument
+│   ├───office
+│   ├───other-object
+│   ├───phone
+│   ├───sound
+│   ├───tool
+│   └───writing
+├───7.Symbols
+│   ├───alphanum
+│   ├───arrow
+│   ├───av-symbol
+│   ├───geometric
+│   ├───keycap
+│   ├───other-symbol
+│   ├───religion
+│   ├───transport-sign
+│   ├───warning
+│   └───zodiac
+└───8.Flags
+    ├───country-flag
+    ├───flag
+    └───subdivision-flag
