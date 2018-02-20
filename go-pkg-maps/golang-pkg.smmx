@@ -1,0 +1,1533 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE simplemind-mindmaps>
+<simplemind-mindmaps generator="SimpleMindWin32" gen-version="1.19.0" doc-version="3">
+<mindmap>
+<meta>
+<guid guid="DFEA2343A54F4225AC7DE3F8F06364DF"/>
+<title text="golang\Npkg"/>
+<style key="system.aqua-levels">
+<mindmap>
+<backgroundcolor r="45" g="45" b="45"/>
+</mindmap>
+<texts align="center"/>
+</style>
+<auto-numbering style="inside"/>
+<scrollstate zoom="110" x="239" y="105"/>
+<main-centraltheme id="0"/>
+</meta>
+<topics>
+<topic id="0" parent="-1" guid="oCX6swU4DUWJuaU0rA_dkw" x="997.48" y="534.58" palette="1" colorinfo="-1" text="golang\Npkg">
+<style borderstyle="sbsEllipse">
+<textcolor r="0" g="0" b="0"/>
+<fillcolor r="183" g="238" b="183"/>
+<font bold="True" scale="2.00"/>
+<strokecolor r="100" g="100" b="100"/>
+</style>
+<fillcolor r="183" g="238" b="183"/>
+<strokecolor r="100" g="100" b="100"/>
+</topic>
+<topic id="1" parent="0" guid="UWfeAWxTxU-mYVLOQiFy4w" x="1041.00" y="368.05" layout="strict-horizontal" layout-direction="right" palette="3" colorinfo="-1" text="Core">
+<style borderstyle="sbsCloud">
+<fillcolor r="255" g="255" b="0"/>
+<strokecolor r="79" g="79" b="79"/>
+</style>
+<fillcolor r="255" g="255" b="0"/>
+<strokecolor r="79" g="79" b="79"/>
+<parent-relation guid="74cl8upVzU6rbestmzlICw">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="2" parent="1" guid="eYlWyF2bIE2FDeDWtX3h-Q" x="1181.84" y="133.25" palette="0" colorinfo="-1" text="builtin">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="3" parent="1" guid="AOFDOqhnTUmUJSoiqQ-pvg" x="1182.34" y="180.81" palette="0" colorinfo="-1" collapsed="True" text="debug">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="4" parent="3" guid="_QmOrlSvuUaBD06vGYF1qQ" x="1278.27" y="180.81" palette="0" colorinfo="-1" text="dwarf">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="5" parent="3" guid="N8CCwJ5zz0mrnYqG_rcLtA" x="1278.27" y="180.81" palette="0" colorinfo="-1" text="elf">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="6" parent="3" guid="M7qkgiTeLkSCWyumKpqPwA" x="1278.27" y="180.81" palette="0" colorinfo="-1" text="gosym">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="7" parent="3" guid="YyiYVrJhx0abnPAKtCrgfg" x="1278.27" y="180.81" palette="0" colorinfo="-1" text="macho">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="8" parent="3" guid="zOqnkLl8_U6u6PN9mWFIRA" x="1278.27" y="180.81" palette="0" colorinfo="-1" text="pe">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="9" parent="3" x="1278.27" y="180.81" palette="0" colorinfo="-1" text="plan0obj">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="10" parent="1" guid="ZeKXz2YC9U6mOuetYg6diA" x="1181.34" y="228.37" palette="0" colorinfo="-1" text="errors">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="11" parent="1" guid="grOvTu2pakm6ZBWma-Zmog" x="1176.84" y="272.93" palette="0" colorinfo="-1" text="fmt">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="12" parent="1" guid="Ig1QiTTbRkuGFdKTc9EfKQ" x="1176.84" y="320.49" palette="0" colorinfo="-1" collapsed="True" text="go">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="13" parent="12" guid="Ic__xkJ7BUKuS6ci6Vwt_w" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="ast">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="14" parent="12" guid="SbV86W5YLUy7GKcpPWc0TQ" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="build">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="15" parent="12" guid="9wNATLvKU0qFMrpH8RxXqA" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="constant">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="16" parent="12" guid="z7V6ISNzrkm45EANkYabqQ" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="doc">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="17" parent="12" guid="lnvBhgHrw0WxM6gcqeoI_w" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="format">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="18" parent="12" guid="PbHcvUxQckef_ld7JF-pzQ" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="importer">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="19" parent="12" guid="aKSnQiF92EaJUML7Njm2NA" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="parser">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="20" parent="12" guid="RPvRHD7vvUCFb-Pg8r5Tsg" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="printer">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="21" parent="12" guid="nIFpLHlymUauWgEg5cPDZA" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="sanner">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="22" parent="12" guid="OYxi-1Rco0W4TwVx3CRdxA" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="token">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="23" parent="12" guid="e64ltFLa8kCsU9Uf_8VO8Q" x="1267.27" y="320.49" palette="0" colorinfo="-1" text="types">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="24" parent="1" guid="9iFvVIvNyUaD7TfbRbyShA" x="1176.84" y="368.05" palette="0" colorinfo="-1" collapsed="True" text="log">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="25" parent="24" guid="fGZJZbR3S0CuaGQceyLlyg" x="1267.27" y="368.05" palette="0" colorinfo="-1" text="syslog">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="26" parent="1" guid="v8lf0fBAFUeb4xWe2zRVTQ" x="1182.34" y="412.61" palette="0" colorinfo="-1" text="plugin">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="27" parent="1" guid="WSLKL_1ZSEaagO0D3t0CRQ" x="1182.84" y="457.17" palette="0" colorinfo="-1" text="reflect">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="28" parent="1" guid="6CRkoGQWNUeS07hv2OPs8A" x="1186.84" y="504.73" palette="0" colorinfo="-1" collapsed="True" text="runtime">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="29" parent="28" guid="ZyjZKX3nP0yOgJhMvN1JWA" x="1287.27" y="504.73" palette="0" colorinfo="-1" text="cgo">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="30" parent="28" guid="wRKTHrNokEGyN03S9S16tg" x="1287.27" y="504.73" palette="0" colorinfo="-1" text="debug">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="31" parent="28" guid="Rg8dozXY3kK7y6KFl1IlcQ" x="1287.27" y="504.73" palette="0" colorinfo="-1" text="msan">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="32" parent="28" guid="OF52x1otWEuD-q1ryLj0eg" x="1287.27" y="504.73" palette="0" colorinfo="-1" text="pprof">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="33" parent="28" guid="OaInyy_Ar0-BwwsKCh0ENg" x="1287.27" y="504.73" palette="0" colorinfo="-1" text="race">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="34" parent="28" guid="LDOHCzzIcE66T8UDX72I2g" x="1287.27" y="504.73" palette="0" colorinfo="-1" text="trace">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="35" parent="1" guid="-u6vboQapUmj8nJMiwmDFQ" x="1187.34" y="555.29" palette="0" colorinfo="-1" collapsed="True" text="testing">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="36" parent="35" guid="KLYNfKvSzkCmnDEMbpo49Q" x="1288.27" y="555.29" palette="0" colorinfo="-1" text="iotest">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="37" parent="35" guid="kVVvNUWGjUqoI_iIOF4kjw" x="1288.27" y="555.29" palette="0" colorinfo="-1" text="quick">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="38" parent="1" guid="YPlPRY4BiE2SOLK5ExHzHg" x="1186.34" y="602.85" palette="0" colorinfo="-1" text="unsafe">
+<style align="left">
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+</style>
+<fillcolor r="255" g="255" b="170"/>
+<strokecolor r="255" g="255" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="39" parent="0" guid="dnRmu7BgxkCEItLB1YdXTw" x="916.58" y="239.92" layout="strict-vertical" layout-direction="top" palette="3" colorinfo="-1" text="System">
+<style borderstyle="sbsCloud">
+<fillcolor r="141" g="204" b="241"/>
+<strokecolor r="21" g="115" b="172"/>
+</style>
+<fillcolor r="141" g="204" b="241"/>
+<strokecolor r="21" g="115" b="172"/>
+<parent-relation guid="EChm5wK4dkSAmwVUg2-xuA">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="40" parent="39" guid="CdkFJY7AhUKWX2VeNk6ipg" x="770.30" y="137.61" palette="0" colorinfo="-1" collapsed="True" text="os">
+<style>
+<fillcolor r="217" g="238" b="251"/>
+<strokecolor r="121" g="196" b="240"/>
+</style>
+<fillcolor r="217" g="238" b="251"/>
+<strokecolor r="121" g="196" b="240"/>
+<parent-relation guid="YqWBHaJrmkS8M5w22um6GA">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="41" parent="40" guid="SC8XRA87406bdgIivxgdyQ" x="770.30" y="58.33" palette="0" colorinfo="-1" text="exec">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="42" parent="40" guid="vRtX6-0iHkSwrP4qJlrSBQ" x="770.30" y="58.33" palette="0" colorinfo="-1" text="signal">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="43" parent="40" x="770.30" y="58.33" palette="0" colorinfo="-1" text="user">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="44" parent="39" guid="c6zp2WyAtkWdm0Vfk6fsdw" x="864.65" y="137.61" palette="0" colorinfo="-1" text="flag">
+<style>
+<fillcolor r="217" g="238" b="251"/>
+<strokecolor r="121" g="196" b="240"/>
+</style>
+<fillcolor r="217" g="238" b="251"/>
+<strokecolor r="121" g="196" b="240"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="45" parent="39" guid="vF3rqfrpLkC4wG2FiiGc8w" x="964.51" y="137.61" palette="0" colorinfo="-1" text="syscall">
+<style>
+<fillcolor r="217" g="238" b="251"/>
+<strokecolor r="121" g="196" b="240"/>
+</style>
+<fillcolor r="217" g="238" b="251"/>
+<strokecolor r="121" g="196" b="240"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="46" parent="39" guid="bhmyFUKAlUumwYYQ3FMMJg" x="1064.36" y="137.61" palette="0" colorinfo="-1" text="time">
+<style>
+<fillcolor r="217" g="238" b="251"/>
+<strokecolor r="121" g="196" b="240"/>
+</style>
+<fillcolor r="217" g="238" b="251"/>
+<strokecolor r="121" g="196" b="240"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="47" parent="0" guid="fzxiZ5ozJk24Ngx3Hg-mUQ" x="1162.59" y="692.51" layout="strict-horizontal" layout-direction="right" palette="4" colorinfo="-1" text="Types &amp; \NAlgo">
+<style align="left" borderstyle="sbsCloud">
+<fillcolor r="0" g="234" b="0"/>
+<strokecolor r="0" g="117" b="0"/>
+</style>
+<fillcolor r="0" g="234" b="0"/>
+<strokecolor r="0" g="117" b="0"/>
+<parent-relation guid="suK_oX2wP0uMps7tgyhkOw">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="48" parent="47" guid="9FGeaxLUFUup2kCG0m3qYA" x="1319.80" y="441.43" palette="0" colorinfo="-1" text="bytes">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="49" parent="47" guid="G31kXqjhqU2fuICHLv9crg" x="1333.80" y="485.99" palette="0" colorinfo="-1" text="container">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="50" parent="47" guid="FkRRaupN5keSGiSf4ONJbg" x="1327.30" y="530.55" palette="0" colorinfo="-1" text="context">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="51" parent="47" guid="w3LGuotCSk2yJSERHU_VHg" x="1322.80" y="575.11" palette="0" colorinfo="-1" text="crypto">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="52" parent="47" guid="tVO8UvmQh02wvDC6b0WFMw" x="1318.30" y="622.67" palette="0" colorinfo="-1" collapsed="True" text="hash">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="53" parent="52" guid="LjG-rFdxF06R8GlFduhVtg" x="1409.23" y="622.67" palette="0" colorinfo="-1" text="adler32">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="54" parent="52" guid="sIdt0jUy3kavKuCk9DVzBw" x="1409.23" y="622.67" palette="0" colorinfo="-1" text="crc32">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="55" parent="52" guid="8UPx-rBqcUu1P9jL2Tt3VA" x="1409.23" y="622.67" palette="0" colorinfo="-1" text="crc64">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="56" parent="52" guid="hbRJLvOEe026U599YUR2dg" x="1409.23" y="622.67" palette="0" colorinfo="-1" text="fnv">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="57" parent="47" guid="habAkOdVXkKKnFNPhM_VJQ" x="1321.80" y="670.23" palette="0" colorinfo="-1" collapsed="True" text="index">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="58" parent="57" guid="YdUsSKDO40mE1WkpeKFgXA" x="1416.23" y="670.23" palette="0" colorinfo="-1" text="suffixarray">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="59" parent="47" guid="9XfpmvDexU2wQ10zzaEvjQ" x="1319.30" y="717.79" palette="0" colorinfo="-1" collapsed="True" text="math">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="60" parent="59" guid="inHRaBxOsUCISal4tl-wTg" x="1411.23" y="717.79" palette="0" colorinfo="-1" text="big">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="61" parent="59" guid="I9c789KzhkCrJQPgm3Fneg" x="1411.23" y="717.79" palette="0" colorinfo="-1" text="bits">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="62" parent="59" guid="rLFlWVFdk0S260zL_eZRfg" x="1411.23" y="717.79" palette="0" colorinfo="-1" text="cmplx">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="63" parent="59" guid="3DrTo2BkOk6mUO0T11Z83A" x="1411.23" y="717.79" palette="0" colorinfo="-1" text="rand">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="64" parent="47" guid="wu8ejHgIfEWW14bpg6_Bjw" x="1325.80" y="765.35" palette="0" colorinfo="-1" collapsed="True" text="regexp">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="65" parent="64" guid="WR3sn_NZm0WEIHSslkC5Gg" x="1424.23" y="765.35" palette="0" colorinfo="-1" text="syntax">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="66" parent="47" guid="QXmiFnV6oE2ExHc2g7Dyug" x="1317.80" y="809.91" palette="0" colorinfo="-1" text="sort">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="67" parent="47" guid="zMS93CWQkEKl0iOAZYajhA" x="1330.80" y="854.47" palette="0" colorinfo="-1" text="strconv">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="68" parent="47" guid="tx0hpqRn3kabPMt2cS7avQ" x="1327.80" y="899.03" palette="0" colorinfo="-1" text="strings">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="69" parent="47" guid="RGLjXSCMMEa8c04O-HVzPQ" x="1321.80" y="943.59" palette="0" colorinfo="-1" collapsed="True" text="sync">
+<style align="left">
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+</style>
+<fillcolor r="170" g="255" b="170"/>
+<strokecolor r="0" g="213" b="0"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="70" parent="69" guid="79nQW-fdxkGVetWTrnxT3A" x="1416.23" y="943.59" palette="0" colorinfo="-1" text="atomic">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="71" parent="0" guid="5_f-cE_fwU-tU_1fyNHGJw" x="872.99" y="426.80" layout="strict-horizontal" layout-direction="left" palette="5" colorinfo="-1" text="File &amp; IO">
+<style align="left" borderstyle="sbsCloud">
+<fillcolor r="94" g="225" b="183"/>
+<strokecolor r="25" g="135" b="100"/>
+</style>
+<fillcolor r="94" g="225" b="183"/>
+<strokecolor r="25" g="135" b="100"/>
+<parent-relation guid="0RsF4G95EEKy2dHZpkgwbg">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="72" parent="71" guid="EiWSDvEwA0yT0dnmdPo_LA" x="711.28" y="189.00" palette="0" colorinfo="-1" collapsed="True" text="archive">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="73" parent="72" guid="jsnj-v4O1Eay0CxbKayRCg" x="612.36" y="189.00" palette="0" colorinfo="-1" text="tar">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="74" parent="72" guid="K6kMBzix8EmKCIZREWXHig" x="612.36" y="189.00" palette="0" colorinfo="-1" text="zip">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="75" parent="71" guid="j5QC-sGlo0uAv7jD90FeJg" x="718.28" y="236.56" palette="0" colorinfo="-1" text="bufio">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="76" parent="71" guid="1m6hkHCRA0yUFzBzMh43EA" x="703.78" y="284.12" palette="0" colorinfo="-1" collapsed="True" text="compress">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="77" parent="76" guid="6VtevkeuxkKCGvg3jxhqRQ" x="597.36" y="284.12" palette="0" colorinfo="-1" text="bzip2">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="78" parent="76" guid="ZtPFR4NCuUu7mdnmQKCFXg" x="597.36" y="284.12" palette="0" colorinfo="-1" text="flate">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="79" parent="76" guid="uZwKNfy_4EuPmcGLovYxTA" x="597.36" y="284.12" palette="0" colorinfo="-1" text="gzip">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="80" parent="76" guid="UtR-LTuVp0i05HNOO7X6Rw" x="597.36" y="284.12" palette="0" colorinfo="-1" text="lzw">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="81" parent="76" x="597.36" y="284.12" palette="0" colorinfo="-1" text="zlib">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="82" parent="71" guid="bMubWXxzgkeAxj4EYjrZBw" x="705.28" y="331.68" palette="0" colorinfo="-1" collapsed="True" text="database">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="83" parent="82" guid="ieLTtxHB8E26YFjTL5Mimw" x="600.36" y="331.68" palette="0" colorinfo="-1" text="sql">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="84" parent="83" guid="7bfk7PLlrUKO-yTlzyVa6A" x="550.36" y="331.68" palette="0" colorinfo="-1" text="driver">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="36" g="154" b="210"/>
+</topic>
+<topic id="85" parent="71" guid="G0SQylXitkmpmWCBULbX1g" x="704.78" y="379.24" palette="0" colorinfo="-1" collapsed="True" text="encoding">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="86" parent="85" guid="e_1JRmCDcEa_bXzmLb_Oaw" x="599.36" y="379.24" palette="0" colorinfo="-1" text="ascii85">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="87" parent="85" guid="Bl4aUxDk3k-g6AdWO6PYnA" x="599.36" y="379.24" palette="0" colorinfo="-1" text="asn1">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="88" parent="85" guid="h46EUIY99Uqs3AZYxLNlwA" x="599.36" y="379.24" palette="0" colorinfo="-1" text="base32/64">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="89" parent="85" guid="0SEZcfba2Eu8ZkY17QKk3g" x="599.36" y="379.24" palette="0" colorinfo="-1" text="binary">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="90" parent="85" guid="Zsq5bw-lfEuThIXjQ_eoGQ" x="599.36" y="379.24" palette="0" colorinfo="-1" text="csv">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="91" parent="85" guid="A4kLID2gX0Od7hJTey4w0w" x="599.36" y="379.24" palette="0" colorinfo="-1" text="gob">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="92" parent="85" guid="f5hmW6NTJECoEcZpJAVg-Q" x="599.36" y="379.24" palette="0" colorinfo="-1" text="hex">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="93" parent="85" guid="wgC9J9AU3kysk0zFP1xnIw" x="599.36" y="379.24" palette="0" colorinfo="-1" text="json">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="94" parent="85" guid="Bgf_Yr9pDE20UpqInjTJPw" x="599.36" y="379.24" palette="0" colorinfo="-1" text="pem">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="95" parent="85" guid="Ml9qFGW1C0G6w-ccnJEYfQ" x="599.36" y="379.24" palette="0" colorinfo="-1" text="xml">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="96" parent="71" guid="YAPL1VGNr0mvE5vAU-HMSQ" x="719.78" y="426.80" palette="0" colorinfo="-1" collapsed="True" text="html">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="97" parent="96" guid="_SaTm4J6d0yu1PD8kbu2oQ" x="629.36" y="426.80" palette="0" colorinfo="-1" text="template">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="98" parent="71" guid="OU1FDFw_hUyap4M-cE6h8g" x="714.28" y="474.36" palette="0" colorinfo="-1" collapsed="True" text="image">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="99" parent="98" guid="3UaYFNrxJkipX5R9l78FUA" x="618.36" y="474.36" palette="0" colorinfo="-1" text="color">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="100" parent="99" x="568.36" y="474.36" palette="0" colorinfo="-1" text="palette">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="36" g="154" b="210"/>
+</topic>
+<topic id="101" parent="98" guid="961GVo_X-kmNGPBOp-LPzA" x="618.36" y="474.36" palette="0" colorinfo="-1" text="draw">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="102" parent="98" guid="NHBczfBhnEaC_h3qErauAA" x="618.36" y="474.36" palette="0" colorinfo="-1" text="gif">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="103" parent="98" guid="dB19x-qx1kiArFDwX6NCdA" x="618.36" y="474.36" palette="0" colorinfo="-1" text="jpeg">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="104" parent="98" guid="4ieJ-Fj9TkmAIiJgxldOMQ" x="618.36" y="474.36" palette="0" colorinfo="-1" text="png">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="105" parent="71" guid="OBW2zvPnB0C8x9J8u3MBMg" x="719.78" y="521.92" palette="0" colorinfo="-1" collapsed="True" text="io">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="106" parent="105" guid="9LB25w42QkWKWMTs-i_ppA" x="629.36" y="521.92" palette="0" colorinfo="-1" text="ioutil">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="107" parent="71" guid="OrRH7UMP_EypByzke3C3dg" x="719.78" y="566.48" palette="0" colorinfo="-1" collapsed="True" text="path">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="108" parent="107" guid="Zi7CCAxhjEyxI879qvRdhA" x="629.36" y="566.48" palette="0" colorinfo="-1" text="filepath">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="109" parent="71" guid="5cFXciKRu0S4tNhuskpCZA" x="705.28" y="614.04" palette="0" colorinfo="-1" collapsed="True" text="unicode">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="110" parent="109" guid="V2jW4J-Nw0-x8G6vvXuGqA" x="600.36" y="614.04" palette="0" colorinfo="-1" text="utf8">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="111" parent="109" guid="gCRFXyqx0EKOxCehI4s_AQ" x="600.36" y="614.04" palette="0" colorinfo="-1" text="utf16">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="112" parent="71" guid="0L3jsv0hkUefDq7Pk-8dHw" x="716.78" y="664.60" palette="0" colorinfo="-1" collapsed="True" text="text">
+<style align="left">
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+</style>
+<fillcolor r="184" g="241" b="222"/>
+<strokecolor r="32" g="181" b="133"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="113" parent="112" guid="x9zAWopg0k6rlrwY5hmXVw" x="623.36" y="664.60" palette="0" colorinfo="-1" text="scanner">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="114" parent="112" guid="a-vViQMma02iN8mqLsvAEA" x="623.36" y="664.60" palette="0" colorinfo="-1" text="tabwriter">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="115" parent="112" guid="tGWosTzfDUG4zAWZmiljRQ" x="623.36" y="664.60" palette="0" colorinfo="-1" text="template">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="116" parent="115" x="573.36" y="664.60" palette="0" colorinfo="-1" text="parse">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="36" g="154" b="210"/>
+</topic>
+<topic id="117" parent="0" guid="Y1gQaITVnkyeorqjf1eh9Q" x="884.76" y="639.83" layout="strict-vertical" layout-direction="bottom" palette="6" colorinfo="-1" text="Network">
+<style borderstyle="sbsCloud">
+<fillcolor r="232" g="185" b="87"/>
+<strokecolor r="141" g="102" b="20"/>
+</style>
+<fillcolor r="232" g="185" b="87"/>
+<strokecolor r="141" g="102" b="20"/>
+<parent-relation guid="nk3QqUw5WUWVa9KLYnvS_w">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="118" parent="117" guid="CTEQjaVXAk6AeM456jgffQ" x="778.41" y="742.14" palette="0" colorinfo="-1" collapsed="True" text="net">
+<style>
+<fillcolor r="244" g="224" b="181"/>
+<strokecolor r="186" g="135" b="27"/>
+</style>
+<fillcolor r="244" g="224" b="181"/>
+<strokecolor r="186" g="135" b="27"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="119" parent="118" guid="mTrThWYr3k2PsTTPMUWDug" x="778.41" y="821.42" palette="0" colorinfo="-1" text="http">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="120" parent="118" guid="3xGtrtHSNk-UB9XLvtFbvw" x="778.41" y="821.42" palette="0" colorinfo="-1" text="mail">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="121" parent="118" guid="NK__mxGzeUS0L_IS9a-5Ng" x="778.41" y="821.42" palette="0" colorinfo="-1" text="rpc">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="122" parent="118" guid="kDLfk-BnNEe6dmp95AyskQ" x="778.41" y="821.42" palette="0" colorinfo="-1" text="smtp">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="123" parent="118" guid="SCSIzqfVHkS5aXs0GZOGTg" x="778.41" y="821.42" palette="0" colorinfo="-1" text="textproto">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="124" parent="118" guid="Aluro2ggUEqba-A7wz42DQ" x="778.41" y="821.42" palette="0" colorinfo="-1" text="url">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="125" parent="117" guid="Q_BrgOB9gUipmfEwxlCgpg" x="878.26" y="742.14" palette="0" colorinfo="-1" collapsed="True" text="mime">
+<style>
+<fillcolor r="244" g="224" b="181"/>
+<strokecolor r="186" g="135" b="27"/>
+</style>
+<fillcolor r="244" g="224" b="181"/>
+<strokecolor r="186" g="135" b="27"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="126" parent="125" guid="ROA_Huw00UKa_1LdUc3y4Q" x="878.26" y="821.42" palette="0" colorinfo="-1" text="multipart">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="127" parent="125" x="878.26" y="821.42" palette="0" colorinfo="-1" text="quotedprintable">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+</topic>
+<topic id="128" parent="117" guid="ToQq9BnmqEuUZEVzMGnCAg" x="984.61" y="742.14" palette="0" colorinfo="-1" text="expvar">
+<style>
+<fillcolor r="244" g="224" b="181"/>
+<strokecolor r="186" g="135" b="27"/>
+</style>
+<fillcolor r="244" g="224" b="181"/>
+<strokecolor r="186" g="135" b="27"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="129" parent="0" guid="Uv3o2EYnUEyI1sZv5GT93w" x="1076.72" y="803.37" layout="strict-vertical" layout-direction="bottom" palette="2" colorinfo="-1" text="Others">
+<style borderstyle="sbsHalfRound">
+<fillcolor r="170" g="170" b="170"/>
+<strokecolor r="85" g="85" b="85"/>
+</style>
+<fillcolor r="170" g="170" b="170"/>
+<strokecolor r="85" g="85" b="85"/>
+<parent-relation guid="ZEP6MYKxHEyhhATcQy85pQ">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="130" parent="129" guid="s04FZJbupE-7NgsDTpkUfQ" x="1006.29" y="904.04" palette="0" colorinfo="-1" collapsed="True" text="Sub">
+<style borderstyle="sbsHalfRound">
+<fillcolor r="106" g="106" b="106"/>
+<strokecolor r="53" g="53" b="53"/>
+</style>
+<fillcolor r="106" g="106" b="106"/>
+<strokecolor r="53" g="53" b="53"/>
+<parent-relation guid="6ASy10IjuEGYtAFG8yIL9w">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="131" parent="130" guid="4E2X7ip95Um310QGJ_6ubA" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="blog">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="132" parent="130" guid="khUPdTEJYE2Ij9Ik7d9eFg" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="build">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="133" parent="130" guid="Q6SaZdmmYUivWDA66Y4T8w" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="benchmarks">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="134" parent="130" guid="b17lRBr51EWloG9trzzttw" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="crypto">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="135" parent="130" guid="_bg8xkYkRkyMjN-hMKJTsg" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="debug">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="136" parent="130" guid="cDhIW7sqKkiJfpdcDLk86g" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="image">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="137" parent="130" guid="1Y3t2crE40S7-Rslzl9rzA" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="mobile">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="138" parent="130" guid="YtJZvABRtUWBP8TPB6syPQ" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="net">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="139" parent="130" guid="WQOOa47p8UWsoLYQoYVohA" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="sys">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="140" parent="130" guid="5_O_9B31U0m8HThWepVCCg" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="text">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="141" parent="130" guid="0c5xoceQJkeHgoREEca2ow" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="tools">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="142" parent="130" guid="N1e0WuJKz0SdPyTfvA7xVQ" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="tour">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="143" parent="130" guid="98nrMdjZSkCHeWuVOrUZnw" x="1006.29" y="983.33" palette="0" colorinfo="-1" text="exp">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="144" parent="129" guid="9erWCMVY_UuaPoe0heD0ZA" x="1124.65" y="904.04" palette="0" colorinfo="-1" collapsed="True" text="Community">
+<style borderstyle="sbsHalfRound">
+<fillcolor r="106" g="106" b="106"/>
+<strokecolor r="53" g="53" b="53"/>
+</style>
+<fillcolor r="106" g="106" b="106"/>
+<strokecolor r="53" g="53" b="53"/>
+<parent-relation guid="HDlWEywdBE6fZtEADY-DOg">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="145" parent="144" guid="gueuVyzm9Uihd2zHjarjqQ" x="1124.65" y="983.33" palette="0" colorinfo="-1" text="GoSearch">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="146" parent="144" guid="_qbvreP3gUOSpQRXTG-inQ" x="1124.65" y="983.33" palette="0" colorinfo="-1" text="GoDoc">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation>
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+<topic id="147" parent="144" guid="BawJV8oVgEyvKlMb6cn_kA" x="1124.65" y="983.33" palette="0" colorinfo="-1" text="Projects">
+<style align="left" borderstyle="sbsNone" borderwidth="0.00">
+<textcolor r="255" g="255" b="255"/>
+<fillcolor r="20" g="20" b="20"/>
+</style>
+<fillcolor r="20" g="20" b="20"/>
+<strokecolor r="44" g="140" b="191"/>
+<parent-relation guid="i1tBiwZrIkia922dQ3gfKQ">
+<style>
+<color r="155" g="155" b="155"/>
+</style>
+</parent-relation>
+</topic>
+</topics>
+<relations/>
+</mindmap>
+</simplemind-mindmaps>

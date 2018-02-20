@@ -1,0 +1,10 @@
+┌── emojis v5 (all)
+├─┬── Smiley&Peoples
+│ ├─┬── face-positive
+│ │ ├── face-neutral
+│ │ ├── face-neutral
+│ │ ├── face-neutral
+│ │ ├── face-neutral
+│ │ ├── face-neutral
+
+

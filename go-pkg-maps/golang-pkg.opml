@@ -1,0 +1,193 @@
+﻿<?xml version="1.0"?>
+<opml version="1.0">
+	<head>
+		<title>
+golangpkg
+		</title>
+	</head>
+	<body>
+		<outline text="golang pkg">
+			<outline text="Core">
+				<outline text="builtin"/>
+				<outline text="debug">
+					<outline text="dwarf"/>
+					<outline text="elf"/>
+					<outline text="gosym"/>
+					<outline text="macho"/>
+					<outline text="pe"/>
+					<outline text="plan0obj"/>
+				</outline>
+				<outline text="errors"/>
+				<outline text="fmt"/>
+				<outline text="go">
+					<outline text="ast"/>
+					<outline text="build"/>
+					<outline text="constant"/>
+					<outline text="doc"/>
+					<outline text="format"/>
+					<outline text="importer"/>
+					<outline text="parser"/>
+					<outline text="printer"/>
+					<outline text="sanner"/>
+					<outline text="token"/>
+					<outline text="types"/>
+				</outline>
+				<outline text="log">
+					<outline text="syslog"/>
+				</outline>
+				<outline text="plugin"/>
+				<outline text="reflect"/>
+				<outline text="runtime">
+					<outline text="cgo"/>
+					<outline text="debug"/>
+					<outline text="msan"/>
+					<outline text="pprof"/>
+					<outline text="race"/>
+					<outline text="trace"/>
+				</outline>
+				<outline text="testing">
+					<outline text="iotest"/>
+					<outline text="quick"/>
+				</outline>
+				<outline text="unsafe"/>
+			</outline>
+			<outline text="System">
+				<outline text="os">
+					<outline text="exec"/>
+					<outline text="signal"/>
+					<outline text="user"/>
+				</outline>
+				<outline text="flag"/>
+				<outline text="syscall"/>
+				<outline text="time"/>
+			</outline>
+			<outline text="Types &amp;  Algo">
+				<outline text="bytes"/>
+				<outline text="container"/>
+				<outline text="context"/>
+				<outline text="crypto"/>
+				<outline text="hash">
+					<outline text="adler32"/>
+					<outline text="crc32"/>
+					<outline text="crc64"/>
+					<outline text="fnv"/>
+				</outline>
+				<outline text="index">
+					<outline text="suffixarray"/>
+				</outline>
+				<outline text="math">
+					<outline text="big"/>
+					<outline text="bits"/>
+					<outline text="cmplx"/>
+					<outline text="rand"/>
+				</outline>
+				<outline text="regexp">
+					<outline text="syntax"/>
+				</outline>
+				<outline text="sort"/>
+				<outline text="strconv"/>
+				<outline text="strings"/>
+				<outline text="sync">
+					<outline text="atomic"/>
+				</outline>
+			</outline>
+			<outline text="File &amp; IO">
+				<outline text="archive">
+					<outline text="tar"/>
+					<outline text="zip"/>
+				</outline>
+				<outline text="bufio"/>
+				<outline text="compress">
+					<outline text="bzip2"/>
+					<outline text="flate"/>
+					<outline text="gzip"/>
+					<outline text="lzw"/>
+					<outline text="zlib"/>
+				</outline>
+				<outline text="database">
+					<outline text="sql">
+						<outline text="driver"/>
+					</outline>
+				</outline>
+				<outline text="encoding">
+					<outline text="ascii85"/>
+					<outline text="asn1"/>
+					<outline text="base32/64"/>
+					<outline text="binary"/>
+					<outline text="csv"/>
+					<outline text="gob"/>
+					<outline text="hex"/>
+					<outline text="json"/>
+					<outline text="pem"/>
+					<outline text="xml"/>
+				</outline>
+				<outline text="html">
+					<outline text="template"/>
+				</outline>
+				<outline text="image">
+					<outline text="color">
+						<outline text="palette"/>
+					</outline>
+					<outline text="draw"/>
+					<outline text="gif"/>
+					<outline text="jpeg"/>
+					<outline text="png"/>
+				</outline>
+				<outline text="io">
+					<outline text="ioutil"/>
+				</outline>
+				<outline text="path">
+					<outline text="filepath"/>
+				</outline>
+				<outline text="unicode">
+					<outline text="utf8"/>
+					<outline text="utf16"/>
+				</outline>
+				<outline text="text">
+					<outline text="scanner"/>
+					<outline text="tabwriter"/>
+					<outline text="template">
+						<outline text="parse"/>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="Network">
+				<outline text="net">
+					<outline text="http"/>
+					<outline text="mail"/>
+					<outline text="rpc"/>
+					<outline text="smtp"/>
+					<outline text="textproto"/>
+					<outline text="url"/>
+				</outline>
+				<outline text="mime">
+					<outline text="multipart"/>
+					<outline text="quotedprintable"/>
+				</outline>
+				<outline text="expvar"/>
+			</outline>
+			<outline text="Others">
+				<outline text="Sub">
+					<outline text="blog"/>
+					<outline text="build"/>
+					<outline text="benchmarks"/>
+					<outline text="crypto"/>
+					<outline text="debug"/>
+					<outline text="image"/>
+					<outline text="mobile"/>
+					<outline text="net"/>
+					<outline text="sys"/>
+					<outline text="text"/>
+					<outline text="tools"/>
+					<outline text="tour"/>
+					<outline text="exp"/>
+				</outline>
+				<outline text="Community">
+					<outline text="GoSearch"/>
+					<outline text="GoDoc"/>
+					<outline text="Projects"/>
+				</outline>
+			</outline>
+		</outline>
+	</body>
+</opml>
