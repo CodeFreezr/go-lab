@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 	"path/filepath"
-	"regexp"
+	"strconv"
 	"time"
 )
 
@@ -20,17 +20,27 @@ type gofi struct {
 }
 
 func main() {
-	searchDir := os.Args[1]
-	ext := ".go$|.png$"
+	searchDir := "D:/dbt/01/gitlab/graphugovizart/themes/blackburn" //os.Args[1]
+	//ext := ".go$|.png$"
 
 	//fileList := []gofi{}
+	graph := "graph theme {\n rankdir=LR\n node [shape=MRecord style=rounded]\n"
+	graph = graph + " graph [bgcolor=grey15 color=black style=filled;style=rounded;]\n"
+
+	gcount := 0
+	fcount := 0
+	lastdir := false
 	err := filepath.Walk(searchDir, func(path string, f os.FileInfo, err error) error {
 		if !f.IsDir() {
-			reg, err := regexp.MatchString(ext, f.Name())
-			if err == nil && reg {
-			}
+			fcount++
+			//reg, err := regexp.MatchString(ext, f.Name())
+			//if err == nil && reg {
+			//}
 
-			println(f.Name())
+			//p := strings.Replace(path, searchDir, "", 1)
+
+			println(fcount, ". file: ", f.Name())
+			graph = graph + "\"" + f.Name() + "\" "
 			/*
 				user := strings.Split(path, ".")[0]
 				bare := strings.Replace(path, user, "", 1)
@@ -45,10 +55,18 @@ func main() {
 			*/
 
 		} else {
-			println(path)
+			gcount++
+			if gcount > 1 && !lastdir {
+				graph = graph + "}"
+			}
+			graph = graph + "\n"
+			print(gcount, " - subgraph: ")
+			graph = graph + "\tsubgraph cluster_" + strconv.Itoa(gcount) + "{label=\"" + f.Name() + "\" "
+			println(f.Name())
 
 			//fmt.Println(f.Name(), path)
 		}
+		lastdir = f.IsDir()
 
 		return err
 	})
@@ -56,7 +74,9 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
+	graph = graph + "}\n}"
+	println("---------------------------------------------------------------")
+	println(graph)
 	/*
 		for _, file := range fileList {
 			fmt.Println("----- ")

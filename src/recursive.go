@@ -1,21 +1,21 @@
 package main
 
 import (
-    "fmt"
-    "os"
-    "path/filepath"
+	"fmt"
+	"os"
+	"path/filepath"
 )
 
 func main() ([]string, error) {
-    searchDir := "c:/path/to/dir"
+	searchDir := "D:/dbt/01/gitlab/graphugovizart/themes/blackburn"
 
-    fileList := []string{}
-    err := filepath.Walk(searchDir, func(path string, f os.FileInfo, err error) error {
-        fileList = append(fileList, path)
-        return nil
-    })
+	fileList := []string{}
+	err := filepath.Walk(searchDir, func(path string, f os.FileInfo, err error) error {
+		fileList = append(fileList, path)
+		return nil
+	})
 
-    for _, file := range fileList {
-        fmt.Println(file)
-    }
+	for _, file := range fileList {
+		fmt.Println(file)
+	}
 }
