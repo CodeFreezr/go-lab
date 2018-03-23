@@ -42,11 +42,15 @@ func format(n int64) string {
 	}
 }
 
-func du(currentPath string, info os.FileInfo) int64 {
+func du(currentPath string, info os.FileInfo, fcount int64, pcount int64) int64 {
 
 	size := info.Size()
 	if !info.IsDir() {
+
+		fcount++
 		return size
+	} else {
+		pcount++
 	}
 
 	dir, err := os.Open(currentPath)
@@ -64,28 +68,24 @@ func du(currentPath string, info os.FileInfo) int64 {
 		if fi.Name() == "." || fi.Name() == ".." {
 			continue
 		}
-		size += du(currentPath+"/"+fi.Name(), fi)
+		size += du(currentPath+"/"+fi.Name(), fi, fcount, pcount)
 	}
 
 	w := new(tabwriter.Writer)
 	w.Init(os.Stdout, 14, 8, 0, '-', tabwriter.AlignRight)
-
 	t := format(size) + "\t " + currentPath
 	fmt.Fprintln(w, t)
-
 	w.Flush()
-
 	return size
 }
 
 func main() {
 	log.SetFlags(log.Lshortfile)
 	dir := os.Args[1]
-
 	info, err := os.Lstat(dir)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	du(dir, info)
+	du(dir, info, 0, 0)
 }
